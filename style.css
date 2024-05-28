@@ -101,3 +101,9 @@ body {
 .toast-container-hidden {
     display: none;
 }
+
+@media (hover: none) and (pointer: coarse) {
+    .buttons input[type="button"]:hover {
+        pointer-events: none;
+    }
+}
